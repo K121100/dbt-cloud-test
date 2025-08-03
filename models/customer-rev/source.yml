@@ -1,0 +1,16 @@
+sources:
+  - name: landing
+    database: SALES_DATA_TEST
+    schema: L1_LANDING
+    
+    tables:
+      - name: customers
+        identifier: customers
+      - name: orders
+        identifier: orders
+      - name: orderitems
+        identifier: orderitems
+      - name: employees
+        identifier: employees
+
+
